@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+var routine="discipline"
+
 func main (){
 
 	var name string="Golang"   // if declared a variable then you need to use it , it mandatory , if you do no use it then remove it  
@@ -23,6 +25,8 @@ func main (){
 
 
 	fmt.Println(age)
+	fmt.Println(routine)
+
 
 	fmt.Println(condition)
 	
